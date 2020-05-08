@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: #545454;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: url("../img/BG.png");
+    background-size: cover;
+  }
+  
+  .container {
+    padding: 50px;
+    border-radius: 25px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .header__info {
+    width: 75%;
+    padding: 10px 0;
+    text-indent: 20px;
+  }
+
+  .array__info {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .sort {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 85%;
+    margin: 80px auto;
+
+  }
+  .sort__item {
+    position: relative;
+    padding: 25px;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+    font-size: 28px;
+    color: #5B80F0;
+    border-radius: 50%;
+    /* background: #5B80F0; */
+    background: url('../img/bubble1.png');
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+
+  }
+
+
+  .active {
+    color: rgb(6, 36, 124);
+  }
+  .finished {
+    background-image: url('../img/bubble_finished.png');
+  }
+
+ .controls {
+   display: flex;
+   justify-content: center;
+ }
+  
+  .btn {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #5B80F0;
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    opacity: .8;
+  }
+
+  .newArray {
+    display: none;
+  }
+  
